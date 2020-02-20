@@ -1,1 +1,2 @@
-# Labeksperimenter med diverse plott for emnene TFY4165 og FY1003
+# Koderelaterte prosjekter og øvinger for diverse fag
+

@@ -112,6 +112,8 @@ def avvik_graf(maaltefil_2R, maaltefil_R, maaltefil_R_2):
     plt.title('Absolutte avvik Helmholtz')
     plt.legend()
     plt.show()
+avvik_graf("helmot2_2R.txt", "helmot2_R.txt", "helmot2_R_2.txt")
+
 
 
 

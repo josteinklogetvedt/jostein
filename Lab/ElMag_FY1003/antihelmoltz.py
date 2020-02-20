@@ -114,4 +114,4 @@ def avvik_graf(maaltefil_2R, maaltefil_R, maaltefil_R_2):
     plt.legend()
 
     plt.show()
-
+avvik_graf("antihelmot2_2R.txt", "antihelmot2_R.txt", "antihelmot2_R_2.txt")

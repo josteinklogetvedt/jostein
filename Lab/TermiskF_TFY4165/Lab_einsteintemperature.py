@@ -1,13 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#vekt_1 = np.array([89.09, 88.16, 86.73, 86.03, 85.22, 84.36, 83.45, 82.69, 81.89])
-#tid_1 = np.array([0,30,60,80,100,120,140,160,180])
-
-#vekt_2 = np.array([80.02, 79.03, 78.56, 77.79, 77.01, 76.23, 75.48, 74.71, 73.99, 73.26, 72.51, 71.79, 71.05, 68.82]) - (6.089)
-#tid_2 = np.array(list(np.arange(255,496,20)) + [555])
-
-#andres gruppe data
+#data
 vekt_1 = [83.8, 81.27, 78.76, 76.34, 73.93]
 tid_1 = [0.3333333, 1.3333333, 2.3333333, 3.333333, 4.3333333]
 vekt_2 = [66.469, 64.069, 62.149, 60.029, 57.909, 55.919, 53.879]
@@ -128,7 +122,7 @@ einsteintemp_4 = fsolve(func_4, 10)
 partiell_mhp_dm = (einsteintemp_3-einsteintemp_4)/(2*d_m)
 print(partiell_mhp_dm, "partiell derivert mhp delta_m")
 
-#usikkerhetsanalyse
+#Usikkerhetsanalyse
 usikkerhet_einsteintemp = np.sqrt((partiell_mhp_dm*d_m)**2+(partiell_mhp_T*d_T)**2)
 print(usikkerhet_einsteintemp, "usikkerhet")
 
